@@ -1,0 +1,52 @@
+html, body{
+    margin-left:15px; margin-right:15px;
+    padding:0px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+#wrapper {width: 100%; margin-top: 0px; }
+#header {width: 70%; background: blue; margin-top: 0px; padding:15px 0px 15px 15px;}
+#header h2 {width: 100%; margin:auto; color: #FFFFFF;}
+#container {width: 100%; margin:auto}
+#container h3 {color: #000;}
+#container #content {margin-top: 20px;}
+
+.add-button {
+    border: 1px solid #666;
+    border-radius: 5px;
+    padding: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    width: 120px;
+    padding: 5px 10px;
+
+    margin-bottom: 15px;
+    background: #cccccc;
+}
+#form {
+    padding: 15px 15px 15px 15px;
+}
+td {
+    padding: 5px; /* Поля вокруг содержимого ячеек */
+
+}
+.save {
+    font-weight: bold;
+    width: 130px;
+    padding: 5px 10px;
+    margin-top: 30px;
+    background: #cccccc;
+}
+
+.add-button {
+    border: 1px solid #666;
+    border-radius: 5px;
+    padding: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    width: 120px;
+    padding: 5px 10px;
+
+    margin-bottom: 15px;
+    background: #cccccc;
+}
