@@ -136,7 +136,7 @@
             <c:choose>
 
                 <c:when test="${currentPage == totalPages}">
-                    <a href="#" class="disabled">Следущая</a>
+                    <a href="#" class="disabled">Следующая</a>
                     <a href="#" class="disabled">Конец</a>
                 </c:when>
 
@@ -144,7 +144,7 @@
                     <c:url var="nextPageLink" value="/part/list">
                         <c:param name="pageNumber" value="${currentPage + 1}" />
                     </c:url>
-                    <a href="${nextPageLink}">Следущая</a>
+                    <a href="${nextPageLink}">Следующая</a>
 
                     <c:url var="lastPageLink" value="/part/list">
                         <c:param name="pageNumber" value="${totalPages}" />
