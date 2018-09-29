@@ -10,3 +10,4 @@ CREATE TABLE part
   quantity      INT DEFAULT '0' NOT NULL
 )
   ENGINE = InnoDB;
+
